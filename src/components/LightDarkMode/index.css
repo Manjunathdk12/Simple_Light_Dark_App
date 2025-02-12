@@ -1,0 +1,50 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+.dark-card {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.light-card {
+  background-color: white;
+  color: black;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dark-card .button {
+  background-color: white;
+  color: black;
+}
+
+.light-card .button {
+  background-color: black;
+  color: white;
+}
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+}
